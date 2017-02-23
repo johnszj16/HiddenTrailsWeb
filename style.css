@@ -11,10 +11,12 @@
 	}
 	
 .top{
-	min-height: 75px;
-	background-color:#f8f8ff;
+	display: block;
+	min-height: 50px;
+	background-color: #f8f8ff;
 	width:100%;
-	padding: 2px;
+	padding: 5px;
+	position: relative;
 }
 
 ul {
