@@ -27,14 +27,16 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #17272B;
-	box-shadow: 0px 3px 5px #3C3C3C;
+	box-shadow: 0px 1vh 2vh #3C3C3C;
 	font-family: "Trajan", "Garamond", serif;
 	overflow: hidden;
+	
 }
 
 li {
     float: left;
 	overflow: hidden;
+
 }
 
 li a {
@@ -43,7 +45,7 @@ li a {
 	font-size: 3vh;
     color: white;
     text-align: center;
-    padding: 10px 60px;
+    padding: 1vw 7vw;
 	overflow: hidden;
 	
 }
@@ -82,37 +84,15 @@ li .active {
 	padding:0;
 	margin:0;
 	z-index:-1;
-	box-shadow: 0px 4px 6px #3C3C3C;
+	box-shadow: 0px 1vh 3vh #3C3C3C;
 	height: 100%;
 }
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
-
-/* Caption text */
 
 img{
 	padding:0;
